@@ -1,0 +1,92 @@
+.projectsection{
+    height: auto;
+    width: 100%;
+    background-color: rgb(23, 23, 68);
+    color: white;
+    padding-top: 1%;
+    
+}
+
+.projectcontainer{
+
+    margin-left: 5%;
+    margin-right: 2%;
+   
+    border: 4px solid #66fcf1;
+    padding: 3%;
+    border-radius: 1em;
+    
+ 
+}
+
+.topicsectionss{
+      text-align: center;
+      
+      font-size: 2rem; /* or whatever size you want */
+      font-weight: bold;
+      
+      
+     
+}
+
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ .stack li{
+    
+    
+    border: 2px solid #66fcf1;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    padding: 0.7em;
+    
+}
+
+.stack ul{
+  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.projectbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    margin: 2%;
+}
+
+button{
+   
+    border-radius: 0.5em;
+    cursor: pointer;
+    
+    border:2px #66fcf1 solid;
+    background-color: transparent;
+    color: #66fcf1 ;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .projectbutton{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin:4%;
+        padding: 0%;
+    }
+
+    button{
+        margin: 2%;
+    }
+  }
+
+
+
+

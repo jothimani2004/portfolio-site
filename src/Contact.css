@@ -1,0 +1,64 @@
+/* Default styles for larger screens */
+#contact {
+    padding: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .bg-bg {
+    background-color: rgb(23, 23, 68);
+    color: white;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .m-2 {
+    margin: 0.5rem;
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem;
+  }
+  
+  .p-8 {
+    padding: 2rem;
+  }
+  
+  /* Media Query for Mobile Screens (width <= 768px) */
+  @media (max-width: 768px) {
+    #contact {
+      padding: 1rem;
+      margin-top: 0.5rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem; /* Reduce heading size for mobile */
+    }
+  
+    .flex {
+      flex-direction: column;
+      align-items: center; /* Stack icons vertically on smaller screens */
+    }
+  
+    .text-4xl {
+      font-size: 1.75rem; /* Reduce icon size */
+    }
+  
+    .p-8 {
+      padding: 1.5rem;
+    }
+  
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  
