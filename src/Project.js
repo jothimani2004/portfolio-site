@@ -35,15 +35,11 @@ const Projectsection = () => {
                 <h1 className='text-4xl ml-0 mr-6'>Zenotion</h1>
             </div>
                 <div className='projectimg w-full ml-0 mt-5 '>
+
                     <img src={zenotion} alt='website image' className='h-auto  w-full rounded-xl'   />
                 </div>
                 <div className='stack m-3'>
-                    <ul className='xl:
-                    
-                    
-                    
-                    
-                    text-2xl'>
+                    <ul className='xl:text-2xl'>
                         <li>Embedded js</li>
                         <li>Node js</li>
                         <li>Express js</li>
@@ -79,7 +75,7 @@ const Projectsection = () => {
     <div data-aos="fade-up"
      data-aos-duration="3000">
 
-        <div className='projectcontainer mt-6'>
+        <div className='projectcontainer mt-10'>
             <div className='title'>
                 <h1 className='text-4xl ml-0 mr-6'>Onlinecourse</h1>
             </div>

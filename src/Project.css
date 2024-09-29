@@ -73,7 +73,12 @@ button{
 
 }
 
+
+
 @media only screen and (max-width: 700px) {
+    .projectcontainer{
+        margin-right: 5%;
+    }
     .projectbutton{
         display: flex;
         flex-direction: column;
@@ -86,6 +91,8 @@ button{
         margin: 2%;
     }
   }
+
+
 
 
 
