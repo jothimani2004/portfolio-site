@@ -39,10 +39,10 @@ const Contacts = ()=>{
    data-aos-offset="0"
      >
   
-    <div className="max-w-6xl mx-auto text-center px-4"> {/* Added px-4 for padding */}
+    <div className=" mx-auto text-center px-4"> {/* Added px-4 for padding */}
       <h2 className="xl:text-4xl font-bold mb-6">Get in Touch</h2>
 
-      <div className="bg-bg rounded-lg shadow-[0_4px_10px_#66fcf1] p-8 max-w-md mx-auto">
+      <div className="bg-bg rounded-lg shadow-[0_4px_10px_#66fcf1] p-8 lg:w-96 mx-auto md:w-80 sm:w-60 max-w-96">
         <p className="mb-4">Feel free to reach out through any of the platforms below!</p>
 
         <div className="flex m-2 justify-center flex-row">
@@ -68,16 +68,16 @@ const Contacts = ()=>{
 
     <div className="bg-bg rounded-lg shadow-lg p-8 max-w-md mx-auto text-center m-8">
       <h2 className="xl:text-4xl font-bold text-white mb-4">Contact Me</h2>
-      <div className="flex justify-center items-center space-x-4">
+      <div className="flex justify-center items-center space-x-0 text-sm xl:text-xl">
        
-        <a href={`mailto:${email}`} target='_blank' className="text-white hover:text-hovercolor flex items-center ">
+        <a href={`mailto:${email}`} target='_blank' className="text-white hover:text-hovercolor flex items-center  ">
           <FaEnvelope className='lg:block hidden' />
-          <span>{email}</span>
+          <span >{email}</span>
         </a>
         
-        <button onClick={copyToClipboard} className="text-white hover:text-hovercolor flex items-center p-1  lg:p-2 lg:rounded-xl rounded-xl">
+        <button onClick={copyToClipboard} className="text-white hover:text-hovercolor flex items-center p-1  lg:p-2 lg:rounded-xl rounded-xl ">
           {copied ? <FaCheck /> : <FaClipboard />}
-          <span>{copied ? 'Copied!' : 'Copy'}</span>
+          <span className='ml-0'>{copied ? 'Copied!' : 'Copy'}</span>
         </button>
       </div>
     </div>
