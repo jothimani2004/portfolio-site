@@ -90,6 +90,12 @@ button{
     button{
         margin: 2%;
     }
+    .stack{
+        padding: 0.8em;
+        margin: 0.4em;
+        font-size: .8em;
+    
+    }
   }
 
 

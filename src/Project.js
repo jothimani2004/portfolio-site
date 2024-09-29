@@ -39,7 +39,7 @@ const Projectsection = () => {
                     <img src={zenotion} alt='website image' className='h-auto  w-full rounded-xl'   />
                 </div>
                 <div className='stack m-3'>
-                    <ul className='xl:text-2xl'>
+                    <ul className=''>
                         <li>Embedded js</li>
                         <li>Node js</li>
                         <li>Express js</li>
@@ -83,7 +83,7 @@ const Projectsection = () => {
                     <img src={course} alt='website image' className='h-auto  w-full rounded-xl'  />
                 </div>
                 <div className='stack m-3'>
-                    <ul className='xl:text-2xl '>
+                    <ul className=''>
                         <li>HTML</li>
                         <li>Css</li>
                         <li>Javascript</li>
