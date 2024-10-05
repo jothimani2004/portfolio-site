@@ -106,7 +106,7 @@ const Projectsection = () => {
   >
 
 <span className="block group-hover:hidden opacity-100 transition-opacity duration-1000 ease-in-out group-hover:opacity-0 delay-1000 lg:text-2xl lg:pl-5 lg:pr-5 lg:pt-3 lg:pb-3">view website</span>
-<span className="hidden group-hover:block opacity-0 transition-opacity duration-1000 ease-in-out group-hover:opacity-100 delay-1000 lg:text-2xl lg:pl-5 lg:pr-5 lg:pt-3 lg:pb-3">Zenotion -&gt;</span>
+<span className="hidden group-hover:block opacity-0 transition-opacity duration-1000 ease-in-out group-hover:opacity-100 delay-1000 lg:text-2xl lg:pl-5 lg:pr-5 lg:pt-3 lg:pb-3">course selling -&gt;</span>
   </button></a>
 
                 </div>
