@@ -94,14 +94,14 @@ const Projectsection = () => {
                 "I developed an online course selling website using HTML, CSS, and JavaScript, focusing on creating a user-friendly interface for browsing and purchasing courses. The website features responsive design elements to enhance user experience across different devices, allowing seamless course navigation and purchase. My work included building dynamic elements and forms, ensuring smooth interactions for potential learners."   
                 </div>
                 <div className="projectbutton">
-                <a><button
+                <a href='https://github.com/jothimani2004/onlinecourse'><button
   type="button"
   className="relative group text-color bg-bg hover:bg-color hover:text-white px-20 py-2 font-bold"
 >
   <span className="block group-hover:hidden lg:text-2xl lg:pl-5 lg:pr-5 lg:pt-3 lg:pb-3" >view code</span>
   <span className="hidden group-hover:block lg:text-2xl lg:pl-5 lg:pr-5 lg:pt-3 lg:pb-3">GitHub -&gt;</span>
 </button></a>
- <a href=''><button type="button" 
+ <a href='https://jothimani2004.github.io/onlinecourse/'><button type="button" 
   className="relative group text-color bg-bg hover:bg-color hover:text-white px-20 py-2 font-bold transition-all duration-300 ease-in-out" 
   >
 
