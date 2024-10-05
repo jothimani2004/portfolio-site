@@ -1,4 +1,7 @@
 import './Skills.css';
+import postmanLogo from './assert/postman.png';
+import gitLogo from './assert/git.png';
+
 import React from 'react';
 import { FaNodeJs, FaReact, FaPython, FaGit, FaLinux } from 'react-icons/fa';
 import { DiMongodb, DiPostgresql, DiJavascript1, DiPostman, DiEjs } from 'react-icons/di';
@@ -40,7 +43,11 @@ const skills=[
          category:"frontend"
        },
       {
-         icon:<FaGit />,
+         icon:<img
+         src={gitLogo}
+         alt="Postman"
+         className="w-7 h-7 m-2 brightness-250 opacity-1 "
+       />,
          name:"Git",
          category:"toolsandtechnologies"
       },
@@ -70,11 +77,11 @@ const skills=[
             category:"frontend"
           },
           {
-             icon:      <img
-        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-        alt="Postman"
-        className="w-6 h-6 m-2 filter invert brightness-150 opacity-1"
-      />,
+             icon:     <img
+             src={postmanLogo}
+             alt="Postman"
+             className="w-7 h-7 m-2 brightness-250 opacity-1 "
+           />,
              name:"Postman",
              category:"toolsandtechnologies"
         },
