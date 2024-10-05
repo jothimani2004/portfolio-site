@@ -10,18 +10,21 @@ const HeroSection = () => {
     <section className="hero-section mt-20 xl:mt-0" id='about'>
         <div className='aboutcontainer'>
               <div className="hero-content">
-                        <h1>Hi, I am  <span>Jothimani</span></h1>
-                        <h2> I'm a  <span>Full-Stack Developer</span></h2>
-                        <p className='m-8 text-2xl leading-20'>
-                        I specialize in building efficient, scalable web applications using the MERN stack. With a strong foundation in full-stack development, I’m also exploring the field of cybersecurity to enhance the security of the applications I create.
+              <div className="p-8">
+    <h1 className="text-4xl md:text-5xl font-bold font-sans">
+        Hi, I am <span className="text-teal-500">Jothimani</span>
+    </h1>
+    <h2 className="text-2xl md:text-3xl font-medium mt-2">
+        I'm a <span className="text-teal-500">Full-Stack Developer</span>
+    </h2>
+    <p className="mt-6 text-lg md:text-xl leading-10 font-light brightness-200">
+    I specializing in building scalable web applications using the MERN stack and exploring cybersecurity to enhance application security. I'm seeking an internship or part-time role to gain industry experience and grow my skills. I am passionate about working on innovative projects and continuously learning new technologies.
+        <br />
+        <br />
+        Feel free to check out my resume for more details!
+    </p>
+</div>
 
-Currently, I am seeking opportunities for an internship or part-time role to gain hands-on industry experience and work alongside professionals in the field. I am passionate about learning new technologies and constantly improving my skills.
-
-"Feel free to check out my resume to learn more about my experience and skills!"
-
-
-                        
-                        </p>
                         <div className="hero-buttons mt-10">
 
 
