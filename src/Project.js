@@ -5,8 +5,18 @@ import 'aos/dist/aos.css';
 import zenotion from './assert/zenotion.png';
 import course from './assert/course.png';
 import auth from './assert/Screenshot 2025-04-05 021556.png'
+import dept from './assert/WhatsApp Image 2025-04-05 at 07.51.40_bfd9c567.jpg'
 
 const projects = [
+  {
+    title: 'MVIT CSE ICB Study Resource Hub',
+    image: dept,
+    stack: ["React.js", "Node.js"," Express.js", "MongoDB"],
+    description:
+   " Designed and developed a full-featured web platform with student profiles, resource sharing, event showcases, faculty and student directories (year-wise), subject offerings, academic calendar, and timetable pages — all with role-based authentication for admins and students.",    codeLink: 'https://github.com/jothimani2004/healthCare-checkin/',
+    liveLink: 'https://mvitcseicb.in/',
+    liveText: 'live',
+  },
   {
     title: 'Zenotion',
     image: zenotion,
@@ -17,15 +27,7 @@ const projects = [
     demoLink:"https://youtu.be/3cw0xUy66y0?si=B73weckfBmP1L_KM",
     liveText: 'Zenotion',
   },
-   {
-    title: 'MVIT CSE ICB Study Resource Hub',
-    image: auth,
-    stack: ["React.js", "Node.js"," Express.js", "MongoDB"],
-    description:
-   " Designed and developed a full-featured web platform with student profiles, resource sharing, event showcases, faculty and student directories (year-wise), subject offerings, academic calendar, and timetable pages — all with role-based authentication for admins and students.",    codeLink: 'https://github.com/jothimani2004/healthCare-checkin/',
-    liveLink: 'https://mvitcseicb.in/',
-    liveText: 'live',
-  },
+  
   {
     title: 'User Authentication & Security System',
     image: auth,
