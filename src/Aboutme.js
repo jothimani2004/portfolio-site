@@ -30,7 +30,7 @@ const HeroSection = () => {
 
 <div>
       <a
-        href="https://drive.google.com/file/d/1oz6g4P8usi9WvW73Jj-RZ8vY5auE4KIH/view?usp=sharing"
+        href="https://drive.google.com/file/d/1m53w8ij8G_5IKjPVGiIjlkL_RlLWdfMo/view?usp=sharing"
         target="_blank"
       
         className="ml-14 inline-block px-6 py-3 bg-hovercolor hover:bg-color text-gray-600 font-bold rounded-lg shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105"
