@@ -17,7 +17,7 @@ const projects = [
    "Built a web platform for a daycare offering 7 programs. Developed a public site for enquiries and a CMS for admins to manage admissions, attendance, payments, and receipts generation program-wise. ",    codeLink: 'https://github.com/Nanonimous/frontend-backend-smilystar',
     liveLink: 'https://smilingstarsdaycare.in/',
     liveText: 'live',
-  }
+  },
 
   {
     title: 'MVIT CSE ICB Study Resource Hub',
