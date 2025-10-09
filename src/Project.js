@@ -6,14 +6,25 @@ import zenotion from './assert/zenotion.png';
 import course from './assert/course.png';
 import auth from './assert/Screenshot 2025-04-05 021556.png'
 import dept from './assert/WhatsApp Image 2025-04-05 at 07.51.40_bfd9c567.jpg'
+import smilingstars from './assert/smilingstars.png'
 
 const projects = [
+  {
+    title: 'SMILING STARS ( Freelancing Web App for Daycare Center) ',
+    image: smilingstars,
+    stack: ["React.js", "Node.js"," Express.js", "postgreSql"],
+    description:
+   "Built a web platform for a daycare offering 7 programs. Developed a public site for enquiries and a CMS for admins to manage admissions, attendance, payments, and receipts generation program-wise. ",    codeLink: 'https://github.com/Nanonimous/frontend-backend-smilystar',
+    liveLink: 'https://smilingstarsdaycare.in/',
+    liveText: 'live',
+  }
+
   {
     title: 'MVIT CSE ICB Study Resource Hub',
     image: dept,
     stack: ["React.js", "Node.js"," Express.js", "MongoDB"],
     description:
-   " Designed and developed a full-featured web platform with student profiles, resource sharing, event showcases, faculty and student directories (year-wise), subject offerings, academic calendar, and timetable pages — all with role-based authentication for admins and students.",    codeLink: 'https://github.com/jothimani2004/healthCare-checkin/',
+   " Designed and developed a full-featured web platform with student profiles, resource sharing, event showcases, faculty and student directories (year-wise), subject offerings, academic calendar, and timetable pages — all with role-based authentication for admins and students.",    codeLink: 'https://github.com/jothimani2004/departrment-project',
     liveLink: 'https://mvitcseicb.in/',
     liveText: 'live',
   },

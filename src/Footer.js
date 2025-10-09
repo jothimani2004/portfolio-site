@@ -7,6 +7,8 @@ import { FaGithub, FaLinkedin,FaEnvelope, FaWhatsapp, FaDiscord } from 'react-ic
 
 
 const Footer = ()=>{
+  
+  const currentYear = new Date().getFullYear();
 
     useEffect(()=>{
         Aos.init()
@@ -46,7 +48,7 @@ const Footer = ()=>{
 </div>
   
   <div className="text-center text-gray-500 text-sm mt-6">
-    &copy; 2024 Jothimani. All Rights Reserved.
+    &copy; {currentYear} Jothimani. All Rights Reserved.
   </div>
 </footer>
 

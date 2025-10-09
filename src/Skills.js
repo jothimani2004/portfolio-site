@@ -9,6 +9,7 @@ import { SiExpress } from 'react-icons/si';
 import { FaHtml5, FaCss3Alt, FaGithub } from 'react-icons/fa'; // HTML, CSS, GitHub
 import { DiVisualstudio} from 'react-icons/di'; // VSCode, Postman
 import { FiWind } from 'react-icons/fi';
+import { SiRedux } from 'react-icons/si';
 
 const skills=[
     {
@@ -108,6 +109,11 @@ const skills=[
            {
             icon:<DiVisualstudio />,
             name:"Visualstudio",
+            category:"toolsandtechnologies"
+          },
+          {
+            icon:<SiRedux />,
+            name:"Redux",
             category:"toolsandtechnologies"
           }
  
